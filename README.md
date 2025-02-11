@@ -1,5 +1,10 @@
 # gaetaeng.github.io
-Hi
+Hi 👋 
+저는 꾸준히 공부하며 성장하는 개발자입니다. 새로운 기술을 탐구하고, 다양한 프로젝트를 진행하며 실력을 키워가고 있습니다.
+
+**Contact :** nuckly60@gmail.com  
+
+---
 
 ## 📌 목차 (Projects)
 - [KORDLE Helper - 이동](#kordle-helper--꼬들-아나그램)
