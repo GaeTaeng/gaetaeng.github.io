@@ -7,11 +7,15 @@ Hi 👋
 ---
 
 ## 📌 목차 (Projects)
-- [KORDLE Helper - 이동](#kordle-helper--꼬들-아나그램)
+- [Knights-Rest - 이동](#Knights-Rest--방치형게임)
 - [BetBall (제작중) - 이동](#제작중-betball--핀볼-내기사이트)
 - [GIECL (제작중) - 이동](#제작중-giecl)
 
 ---
+## Knights-Rest / 방치형게임
+[Knights-Rest 이동](https://gaetaeng.github.io/Knight-s-Rest)
+![image](https://github.com/user-attachments/assets/dced5944-b24d-4a52-8ade-da011b379755)
+
 
 ## KORDLE Helper / 꼬들, 아나그램
 [KORDLE Helper 이동](https://gaetaeng.github.io/kordle-helper/)  
