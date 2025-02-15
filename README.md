@@ -14,9 +14,11 @@ Hi 👋
 ---
 ## Knights-Rest / 방치형게임
 [Knights-Rest 이동](https://gaetaeng.github.io/Knight-s-Rest)
+
 ![image](https://github.com/user-attachments/assets/dced5944-b24d-4a52-8ade-da011b379755)
 
 
+---
 ## KORDLE Helper / 꼬들, 아나그램
 [KORDLE Helper 이동](https://gaetaeng.github.io/kordle-helper/)  
 <img src="https://github.com/user-attachments/assets/10f215c5-7487-4645-9020-8feeb52c49be" width="300px" height="300px">
