@@ -20,7 +20,7 @@ Hi 👋
 ---
 ## [제작중] Knights-Rest / 방치형게임
 [Knights-Rest 이동](https://gaetaeng.github.io/Knight-s-Rest)
-<img width="1011" alt="image" src="https://github.com/user-attachments/assets/78c1a45c-abdf-4379-b7dd-4b9809d62f75" width="300" height="300" />
+<img  alt="image" src="https://github.com/user-attachments/assets/78c1a45c-abdf-4379-b7dd-4b9809d62f75" width="300" height="300" />
 
 ---
 ## KORDLE Helper / 꼬들, 아나그램
