@@ -12,6 +12,12 @@ Hi 👋
 - [GIECL (제작중) - 이동](#제작중-giecl)
 
 ---
+## [회사] WEHAGO L & L Edge
+![image](https://github.com/user-attachments/assets/dfe2a3f3-f62a-4e5e-a31e-2874dc36b3e3)
+![image](https://github.com/user-attachments/assets/0f8d28e8-2c75-4264-9c13-6b601931c5f6)
+
+
+---
 ## Knights-Rest / 방치형게임
 [Knights-Rest 이동](https://gaetaeng.github.io/Knight-s-Rest)
 
