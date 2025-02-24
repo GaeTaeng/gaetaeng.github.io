@@ -14,13 +14,13 @@ Hi 👋
 
 ---
 ## [제작중] [회사] WEHAGO L & L Edge
-<img src="https://github.com/user-attachments/assets/dfe2a3f3-f62a-4e5e-a31e-2874dc36b3e3" width="300" height="300">
-<img src="https://github.com/user-attachments/assets/0f8d28e8-2c75-4264-9c13-6b601931c5f6" width="300" height="300">
+<img src="https://github.com/user-attachments/assets/dfe2a3f3-f62a-4e5e-a31e-2874dc36b3e3" width="300">
+<img src="https://github.com/user-attachments/assets/0f8d28e8-2c75-4264-9c13-6b601931c5f6" width="300">
 
 ---
 ## [제작중] Knights-Rest / 방치형게임
 [Knights-Rest 이동](https://gaetaeng.github.io/Knight-s-Rest)
-<img  alt="image" src="https://github.com/user-attachments/assets/78c1a45c-abdf-4379-b7dd-4b9809d62f75" width="300" height="300" />
+<img alt="image" src="https://github.com/user-attachments/assets/78c1a45c-abdf-4379-b7dd-4b9809d62f75" width="300" />
 
 ---
 ## KORDLE Helper / 꼬들, 아나그램
