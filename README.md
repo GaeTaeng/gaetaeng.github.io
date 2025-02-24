@@ -7,6 +7,8 @@ Hi 👋
 ---
 
 ## 📌 목차 (Projects)
+- [[회사] WEHAGO L & L Edge - 이동](#회사-wehago-l--l-edge)
+
 - [Knights-Rest - 이동](#Knights-Rest--방치형게임)
 - [BetBall (제작중) - 이동](#제작중-betball--핀볼-내기사이트)
 - [GIECL (제작중) - 이동](#제작중-giecl)
@@ -16,13 +18,11 @@ Hi 👋
 ![image](https://github.com/user-attachments/assets/dfe2a3f3-f62a-4e5e-a31e-2874dc36b3e3)
 ![image](https://github.com/user-attachments/assets/0f8d28e8-2c75-4264-9c13-6b601931c5f6)
 
-
 ---
 ## Knights-Rest / 방치형게임
 [Knights-Rest 이동](https://gaetaeng.github.io/Knight-s-Rest)
 
 ![image](https://github.com/user-attachments/assets/dced5944-b24d-4a52-8ade-da011b379755)
-
 
 ---
 ## KORDLE Helper / 꼬들, 아나그램
@@ -34,7 +34,6 @@ Hi 👋
 🔹 아나그램 기능을 지원하여 다양한 단어 조합을 찾을 수 있습니다.  
 
 ---
-
 ## [제작중] BetBall / 핀볼 내기사이트
 [BetBall 이동](https://gaetaeng.github.io/BetBall/)  
 <img src="https://github.com/user-attachments/assets/a47121e0-e60c-48b7-9147-c46203df4459" width="300px" height="300px">
@@ -43,7 +42,6 @@ Hi 👋
 🔹 현재 개발 중이며, 다양한 베팅 옵션을 제공할 예정입니다.  
 
 ---
-
 ## [제작중] GIECL
 [GIECL 이동](https://gaetaeng.github.io/giec-homepage/)
 
