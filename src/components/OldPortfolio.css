@@ -1,0 +1,52 @@
+.Portfolio {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.Portfolio h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.Portfolio h2 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.Portfolio p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.Portfolio ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Portfolio li {
+  margin-bottom: 10px;
+}
+
+.Portfolio a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.Portfolio a:hover {
+  text-decoration: underline;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.portfolio-card {
+  flex: 1 1 calc(33.333% - 16px);
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}

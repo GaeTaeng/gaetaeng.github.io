@@ -1,0 +1,87 @@
+.menu {
+  width: 60px;
+  height: 100vh;
+  background: #1c1c1c;
+  transition: width 0.3s;
+  overflow: hidden;
+  position:fixed;
+}
+
+.menu:hover {
+  width: 260px;
+}
+
+.menu:hover li span:nth-child(2) {
+    display: block;
+}
+
+
+.menu-content li {
+  list-style: none;
+  border-radius: 0px 50px 50px 0;
+  transition: background 0.3s;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+
+.menu-content li:hover {
+  background: #0c0c0c;
+}
+
+.menu-content {
+    padding: 0;
+    margin: 0;
+  }
+
+.menu-content li a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-content li a span {
+  margin-left: 10px;
+  display: none;
+  white-space: nowrap; /* 글자가 깨지지 않도록 설정 */
+}
+
+.menu:hover li a span {
+  display: inline;
+  min-width: 200px; /* 글자가 깨지지 않도록 최소 너비 설정 */
+}
+
+.menu-content li a i {
+  font-size: 24px;
+  display: inline; /* 아이콘이 사라지지 않도록 설정 */
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.menu-item a {
+    padding-left: 5px;
+}
+
+.menu-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-icon {
+  margin-right: 10px;
+  font-size: 1.5em;
+}
+
+.menu-text {
+  font-size: 1em;
+}
