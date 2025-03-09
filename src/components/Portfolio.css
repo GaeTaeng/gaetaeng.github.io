@@ -42,11 +42,61 @@
   gap: 16px;
 }
 
-.portfolio-card {
-  flex: 1 1 calc(33.333% - 16px);
+.portfolio-box  {
+  background-color: transparent;
+  min-width: 400px; 
+  min-height: 530px; 
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.portfolio-card-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.portfolio-box:hover .portfolio-card-container  {
+  transform: rotateY(180deg);
+}
+
+
+
+.portfolio-card  {
+  position: absolute;
+  width: 100%;
+  height: 100%;
   box-sizing: border-box;
   padding: 16px;
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #fff;
+
+  
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+
 }
+
+.portfolio-card.front {
+  background: linear-gradient(135deg, #050607, #b1aeb0);
+  color: white;
+}
+
+
+.portfolio-card.back {
+  background: linear-gradient(135deg, #050607, #b1aeb0);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.portfolio-card:hover.front {
+}
+
+.portfolio-card:hover.back {
+  transform: rotateY(180deg);
+}
+

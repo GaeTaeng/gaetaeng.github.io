@@ -5,6 +5,7 @@
   transition: width 0.3s;
   overflow: hidden;
   position:fixed;
+  z-index: 3;
 }
 
 .menu:hover {

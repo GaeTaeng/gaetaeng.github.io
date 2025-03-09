@@ -12,14 +12,12 @@ function App() {
       <div className="App">
         <LNB />
         <div className="content">
-          {/* <header className="App-header"> 
-          </header> */}
           <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/Home" element={<Home />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/oldportfolio" element={<OldPortfolio />} />
-            {/* 다른 경로를 추가할 수 있습니다 */}
+            <Route path="/" element={<Home />} />
+            <Route path="/Home" element={<Home />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/oldportfolio" element={<OldPortfolio />} />
+              {/* 다른 경로를 추가할 수 있습니다 */}
           </Routes>
         </div>
       </div>
