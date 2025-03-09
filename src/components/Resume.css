@@ -1,0 +1,96 @@
+.Resume {
+  width: 100%;
+  max-width: 50rem;
+  margin: auto;
+}
+
+.Resume h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.Resume h2 {
+  font-size: 3em;
+  margin: 4rem 0 2rem;
+}
+
+
+.Resume h3 {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+}
+
+.Resume p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.Resume ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.Resume ul li {
+  margin-bottom: 20px;
+}
+
+.Resume a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.Resume a:hover {
+  text-decoration: underline;
+}
+
+.Resume-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.Resume-card {
+  flex: 1 1 calc(33.333% - 16px);
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+
+p.big-font {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  font-weight: 500;
+
+}
+
+.Resume .row {
+  display: -ms-flexbox;
+  display: flex
+;
+  padding: 3rem 0;
+  border-bottom: 1px solid #eee;
+}
+.Resume .row-left {
+  -ms-flex-preferred-size: 18rem;
+  flex-basis: 18rem;
+  padding-right: 1rem;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+
+}
+
+
+
+.Resume .project:first-child {
+  padding-top: 0;
+}
+.Resume .project {
+  padding: 1.5rem 0;
+}
+.Resume .inner-project {
+  padding: .5rem 0;
+}

@@ -21,9 +21,9 @@ function LNB() {
           </Link>
         </li>
         <li className="menu-item">
-          <Link to="/oldportfolio" className="menu-link">
+          <Link to="/resume" className="menu-link">
           <FaBookReader  className="menu-icon" />
-            <span className="menu-text">OldPortfolio</span>
+            <span className="menu-text">Resume</span>
           </Link>
         </li>
 
