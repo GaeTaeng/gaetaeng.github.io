@@ -74,6 +74,10 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
 
   
   -webkit-backface-visibility: hidden; /* Safari */
@@ -100,3 +104,67 @@
   transform: rotateY(180deg);
 }
 
+.portfolio-card h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.portfolio-card p {
+  margin: 0;
+  line-height: 1.5;
+  opacity: 0.85;
+}
+
+.portfolio-card .card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.portfolio-card .card-chip {
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(5, 6, 7, 0.35);
+}
+
+.portfolio-card .card-status {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: rgba(5, 6, 7, 0.35);
+}
+
+.portfolio-card .card-status.done {
+  border-color: rgba(255, 255, 255, 0.55);
+  background: rgba(70, 200, 140, 0.25);
+}
+
+.portfolio-card .card-status.wip {
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(230, 180, 60, 0.25);
+}
+
+.portfolio-card .card-year {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+.portfolio-card .card-link {
+  margin-top: auto;
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 999px;
+  padding: 8px 12px;
+  width: fit-content;
+  font-size: 0.85rem;
+}

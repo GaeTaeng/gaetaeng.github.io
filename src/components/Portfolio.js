@@ -3,12 +3,12 @@ import './Portfolio.css';
 
 function Portfolio() {
   const portfolioItems = [
-    { id: 1, title: '[제작중] Knights-Rest / 방치형게임', description: 'Description of Project 1', description2: '22' },
-    { id: 2, title: 'KORDLE Helper / 꼬들, 아나그램', description: 'Description of Project 2', description2: '22' },
-    { id: 3, title: '[제작중] BetBall / 핀볼 내기사이트', description: 'Description of Project 3', description2: '22' },
-    { id: 4, title: '[제작중] GIECL', description: 'Description of Project 4', description2: '22' },
-    { id: 5, title: 'Project 5', description: 'Description of Project 5', description2: '22' },
-    { id: 6, title: '[제작중] [회사] (포트폴리오)', description: 'Description of Project 6', description2: '22' },
+    { id: 1, title: '대한민국 랜덤 여행 지역 뽑기', description: '랜덤 위치를 생성해주는 미니 웹 도구', description2: 'description', status: '완료', link: 'https://random-location-generator.onrender.com/' },
+    { id: 2, title: '[제작중] Knights-Rest / 방치형게임', description: 'Description of Project 1', description2: 'description', status: '진행중' },
+    { id: 3, title: 'KORDLE Helper / 꼬들, 아나그램', description: 'Description of Project 2', description2: 'description', status: '완료' },
+    { id: 4, title: '[제작중] BetBall / 핀볼 내기사이트', description: 'Description of Project 3', description2: 'description', status: '진행중' },
+    { id: 5, title: '[제작중] GIECL', description: 'Description of Project 4', description2: 'description', status: '진행중' },
+    { id: 7, title: '[제작중] [회사] (포트폴리오)', description: 'Description of Project 6', description2: 'description', status: '진행중' },
   ];
 
   return (
@@ -19,11 +19,25 @@ function Portfolio() {
             <div className="portfolio-card-container">
 
               <div className="portfolio-card back">
-                <h3>Back card</h3>
-                <p>Back description</p>
+                <div className="card-top">
+                  <span className={`card-status ${item.status === '완료' ? 'done' : 'wip'}`}>{item.status}</span>
+                  <span className="card-chip">Details</span>
+                  <span className="card-year">{item.description2}</span>
+                </div>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+                {item.link && (
+                  <a href={item.link} target="_blank" rel="noopener noreferrer" className="card-link">
+                    프로젝트 보기
+                  </a>
+                )}
               </div>
               <div className="portfolio-card front">
-                <h3>Front card</h3>
+                <div className="card-top">
+                  <span className={`card-status ${item.status === '완료' ? 'done' : 'wip'}`}>{item.status}</span>
+                  <span className="card-chip">Project</span>
+                  <span className="card-year">{item.description2}</span>
+                </div>
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
               </div>
