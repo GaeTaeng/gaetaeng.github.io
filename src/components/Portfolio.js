@@ -4,11 +4,8 @@ import './Portfolio.css';
 function Portfolio() {
   const portfolioItems = [
     { id: 1, title: '대한민국 랜덤 여행 지역 뽑기', description: '랜덤 위치를 생성해주는 미니 웹 도구', description2: 'description', status: '완료', link: 'https://random-location-generator.onrender.com/' },
-    { id: 2, title: '[제작중] Knights-Rest / 방치형게임', description: 'Description of Project 1', description2: 'description', status: '진행중' },
     { id: 3, title: 'KORDLE Helper / 꼬들, 아나그램', description: 'Description of Project 2', description2: 'description', status: '완료' },
-    { id: 4, title: '[제작중] BetBall / 핀볼 내기사이트', description: 'Description of Project 3', description2: 'description', status: '진행중' },
     { id: 5, title: '[제작중] GIECL', description: 'Description of Project 4', description2: 'description', status: '진행중' },
-    { id: 7, title: '[제작중] [회사] (포트폴리오)', description: 'Description of Project 6', description2: 'description', status: '진행중' },
   ];
 
   return (

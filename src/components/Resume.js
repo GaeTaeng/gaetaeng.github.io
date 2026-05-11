@@ -118,18 +118,6 @@ function Resume() {
         <p><a href="https://gaetaeng.github.io/giec-homepage/" target='_blank' rel="noopener noreferrer">GIECL 이동</a></p>
         </div>
       </div>
-      
-      <hr />
-      <div className='row' id="knights-rest">
-        <div className='row-left'>
-          <h3>[제작중] Knights-Rest / 방치형게임</h3>
-          <p></p>
-        </div>
-        <div className='row-right'>
-          
-          <p><a href="https://gaetaeng.github.io/Knight-s-Rest" target='_blank' rel="noopener noreferrer">Knights-Rest 이동</a></p>
-        </div>
-      </div>
 
       
       <hr />
@@ -140,16 +128,6 @@ function Resume() {
         </div>
         <div className='row-right'>
         <p><a href="https://gaetaeng.github.io/kordle-helper/" target='_blank' rel="noopener noreferrer">KORDLE Helper 이동</a></p>
-        </div>
-      </div>
-      <hr />
-      <div className='row' id="betball">
-        <div className='row-left'>
-          <h3>[제작중] BetBall / 핀볼 내기사이트</h3>
-          <p></p>
-        </div>
-        <div className='row-right'>
-        <p><a href="https://gaetaeng.github.io/BetBall/" target='_blank' rel="noopener noreferrer">BetBall 이동</a></p>
         </div>
       </div>
 
