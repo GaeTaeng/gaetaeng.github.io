@@ -3,9 +3,9 @@ import './Portfolio.css';
 
 function Portfolio() {
   const portfolioItems = [
-    { id: 1, title: '대한민국 랜덤 여행 지역 뽑기', description: '랜덤 위치를 생성해주는 미니 웹 도구', description2: 'description', status: '완료', link: 'https://random-location-generator.onrender.com/' },
-    { id: 3, title: 'KORDLE Helper / 꼬들, 아나그램', description: 'Description of Project 2', description2: 'description', status: '완료' },
-    { id: 5, title: '[제작중] GIECL', description: 'Description of Project 4', description2: 'description', status: '진행중' },
+    { id: 1, title: '대한민국 랜덤 여행 지역 뽑기', description: '국내 여행지를 랜덤으로 추천해주는 미니 웹 도구', description2: 'Web Tool', status: '완료', link: 'https://random-location-generator.onrender.com/' },
+    { id: 3, title: 'KORDLE Helper / 꼬들, 아나그램', description: '꼬들 풀이와 아나그램 탐색을 돕는 보조 도구', description2: 'Word Game', status: '완료', link: 'https://gaetaeng.github.io/kordle-helper/' },
+    { id: 5, title: '[제작중] GIECL', description: 'GIECL 프로젝트용 홈페이지', description2: 'Homepage', status: '진행중', link: 'https://gaetaeng.github.io/giec-homepage/' },
   ];
 
   return (

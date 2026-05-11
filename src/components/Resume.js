@@ -109,7 +109,7 @@ function Resume() {
       </div>
 
       <hr />
-      <div className='row' id="betball">
+      <div className='row' id="giecl">
         <div className='row-left'>
           <h3>[제작중] GIECL</h3>
           <p></p>
@@ -128,6 +128,16 @@ function Resume() {
         </div>
         <div className='row-right'>
         <p><a href="https://gaetaeng.github.io/kordle-helper/" target='_blank' rel="noopener noreferrer">KORDLE Helper 이동</a></p>
+        </div>
+      </div>
+      <hr />
+      <div className='row' id="random-location-generator">
+        <div className='row-left'>
+          <h3>대한민국 랜덤 여행 지역 뽑기</h3>
+          <p></p>
+        </div>
+        <div className='row-right'>
+        <p><a href="https://random-location-generator.onrender.com/" target='_blank' rel="noopener noreferrer">랜덤 여행 지역 뽑기 이동</a></p>
         </div>
       </div>
 
